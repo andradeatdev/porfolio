@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
 	return (
-		<main className="flex w-full max-w-3xl flex-col items-center justify-between gap-10 px-16 py-32 font-sans sm:flex-row sm:gap-12">
+		<main className="flex w-full max-w-3xl flex-col items-center justify-between gap-10 px-16 py-32 font-sans sm:flex-row sm:gap-12 sm:max-w-4xl">
 			{/* Texto */}
 			<div className="flex flex-col items-center gap-5 text-center sm:items-start sm:text-left">
 				<span className="rounded-full bg-emerald-100 px-3 py-1 text-sm text-emerald-700 dark:bg-emerald-900 dark:text-emerald-300">
@@ -45,7 +45,7 @@ export default function Home() {
 					<a
 						href="https://github.com/andradeatdev"
 						target="_blank"
-						rel="noreferrer"
+						rel="noreferrer noopenner"
 						aria-label="GitHub"
 						className="transition hover:text-black dark:hover:text-zinc-50"
 					>
@@ -55,7 +55,7 @@ export default function Home() {
 					<a
 						href="https://linkedin.com/in/gabrielhenrique-dev/"
 						target="_blank"
-						rel="noreferrer"
+						rel="noreferrer noopenner"
 						aria-label="LinkedIn"
 						className="transition hover:text-black dark:hover:text-zinc-50"
 					>
@@ -64,8 +64,10 @@ export default function Home() {
 
 					<a
 						href="mailto:gabrielandrade@proton.me"
+						target="_blank"
 						aria-label="Email"
 						className="transition hover:text-black dark:hover:text-zinc-50"
+						rel="noreferrer noopener"
 					>
 						<Mail size={20} />
 					</a>

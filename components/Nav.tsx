@@ -6,6 +6,7 @@ import {
 	SheetTrigger,
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
+import Link from "next/link";
 import { NavLink } from "./NavLink";
 import { ThemeToggle } from "./theme-toggle";
 
@@ -39,9 +40,14 @@ export default function Nav() {
 
 	return (
 		<header className="border-b border-zinc-200 dark:border-zinc-800 py-4 px-8 flex items-center justify-between sticky top-0 z-50 bg-zinc-50 dark:bg-zinc-950">
-			<h1 className="text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-				Andrade
-			</h1>
+			<Link href="/">
+				<span className="text-3xl font-bold leading-10 tracking-tight text-black dark:text-white">
+					Andr
+				</span>
+				<span className="text-3xl font-normal leading-10 tracking-tight text-indigo-600 dark:text-indigo-400">
+					ade
+				</span>
+			</Link>
 
 			<div className="items-center gap-4 hidden md:flex">
 				<div className="gap-1 flex">
