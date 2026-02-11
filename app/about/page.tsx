@@ -39,10 +39,10 @@ export default function About() {
 							Backend
 						</h3>
 						<div className="flex flex-wrap gap-3">
-							<SimpleIcon language="go" />
-							<SimpleIcon language="nodedotjs" />
-							<SimpleIcon language="typescript" />
-							<SimpleIcon language="javascript" />
+							<SimpleIcon name="go" />
+							<SimpleIcon name="nodedotjs" />
+							<SimpleIcon name="typescript" />
+							<SimpleIcon name="javascript" />
 						</div>
 					</div>
 
@@ -52,10 +52,10 @@ export default function About() {
 							Infra & Ferramentas
 						</h3>
 						<div className="flex flex-wrap gap-3">
-							<SimpleIcon language="mysql" />
-							<SimpleIcon language="docker" />
-							<SimpleIcon language="linux" />
-							<SimpleIcon language="github" className="dark:invert" />
+							<SimpleIcon name="mysql" />
+							<SimpleIcon name="docker" />
+							<SimpleIcon name="linux" />
+							<SimpleIcon name="github" className="dark:invert" />
 						</div>
 					</div>
 				</div>

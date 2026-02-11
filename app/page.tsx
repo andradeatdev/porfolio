@@ -82,7 +82,7 @@ export default function Home() {
 					width={400}
 					height={400}
 					priority
-					className="aspect-square rounded-full object-cover object-[center_25%] shadow-lg shadow-zinc-400 dark:shadow-zinc-800"
+					className="aspect-square rounded-full object-cover object-[center_25%] hover:scale-105 transition duration-500 shadow-lg shadow-zinc-400 dark:shadow-zinc-800"
 				/>
 			</div>
 		</main>

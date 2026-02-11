@@ -9,7 +9,7 @@ export default function Contact() {
 				</h1>
 				<p className="text-zinc-600 dark:text-zinc-400 text-center mb-12 max-w-2xl mx-auto">
 					Tem um projeto em mente ou apenas quer dar um oi? Adoraria ouvir de
-					você. Preencha o formulário abaixo ou entre em contato diretamente.
+					você. Entre em contato diretamente.
 				</p>
 			</div>
 

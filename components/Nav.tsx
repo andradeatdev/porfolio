@@ -61,6 +61,7 @@ export default function Nav() {
 				<ThemeToggle />
 			</div>
 
+			{/* <ThemeToggle className="md:hidden" /> */}
 			<div className="md:hidden">
 				<Sheet>
 					<SheetTrigger asChild>
